@@ -1,5 +1,3 @@
-pwd
-ls
 # docker stop story-roy-cook-com
 # docker rm story-roy-cook-com
 docker rmi roy-cook/story-roy-cook-com
