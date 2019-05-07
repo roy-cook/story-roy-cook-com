@@ -20,9 +20,10 @@ COPY package.json /home/service
 # 安装安装npm模块项目依赖包
 # RUN npm install --production --registry=https://registry.npm.taobao.org
 RUN npm install --production --registry=https://registry.npm.taobao.org
+RUN npm install -g hexo-cli --registry=https://registry.npm.taobao.org
 # 拷贝所有源代码到工作目录
 COPY . /home/service
 # 暴露容器端口
 EXPOSE 4000
 # 启动node应用
-CMD npm start
+CMD hexo server
