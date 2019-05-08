@@ -87,3 +87,10 @@ search:
   versionPath: searchVersion.txt
   field: post
   #field: post, page or all
+
+# hexo-tag-cloud
+tag_cloud:
+    textFont: Trebuchet MS, Helvetica
+    textColour: \#333
+    textHeight: 10
+    outlineColour: \#E2E1D1

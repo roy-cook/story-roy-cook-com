@@ -645,6 +645,35 @@ jQuery(document).ready(function($) {
 		};
 	*/
 
+	var Annie_TagCloud = function () {
+		try {
+			TagCanvas.textFont = 'Trebuchet MS, Helvetica';
+			TagCanvas.textColour = '#333';
+			TagCanvas.textHeight = 18;
+			TagCanvas.outlineColour = '#E2E1C1';
+			TagCanvas.maxSpeed = 0.03;
+			TagCanvas.outlineMethod = 'block';
+			TagCanvas.minBrightness = 0.2;
+			TagCanvas.depth = 0.92;
+			TagCanvas.pulsateTo = 0.6;
+			TagCanvas.initial = [0.1, -0.1];
+			TagCanvas.decel = 0.98;
+			TagCanvas.reverse = true;
+			TagCanvas.hideTags = false;
+			TagCanvas.shadow = '#ccf';
+			TagCanvas.shadowBlur = 3;
+			TagCanvas.weight = false;
+			TagCanvas.imageScale = null;
+			TagCanvas.fadeIn = 1000;
+			TagCanvas.clickToFront = 600;
+			TagCanvas.Start('resCanvas');
+			TagCanvas.tc['resCanvas'].Wheel(false)
+		} catch (e) {
+			console.log(e);
+			document.getElementById('myCanvasContainer').style.display = 'none';
+		}
+	};
+
 	/* Initialize */
 	(function Annie_Init() {
 		Annie_Preloader();
@@ -660,5 +689,6 @@ jQuery(document).ready(function($) {
 		Annie_ImageLazyLoad();
 		Annie_ImageResize();
 		Annie_NiceScroll();
+		Annie_TagCloud(); //初始化
 	})();
 });
