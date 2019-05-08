@@ -222,10 +222,3 @@ love:
 # back to top
 totop:
     enable: true
-
-# hexo-tag-cloud
-tag_cloud:
-    textFont: Trebuchet MS, Helvetica
-    textColour: \#333
-    textHeight: 10
-    outlineColour: \#E2E1D1
