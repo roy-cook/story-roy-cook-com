@@ -110,3 +110,33 @@ feed:
   content_limit_delim: ' '
   order_by: -date
   icon: icon.png
+
+
+# Live2D
+## https://github.com/EYHN/hexo-helper-live2d
+live2d:
+  enable:               true
+  scriptFrom:           local
+  pluginRootPath:       live2dw/
+  pluginJsPath:         lib/
+  pluginModelPath:      assets/
+  tagMode:              false
+  debug:                false
+  model:
+    use:                live2d-widget-model-wanko
+    scale:              1
+    hHeadPos:           0.5
+    vHeadPos:           0.618
+  display:
+    superSample:        2
+    width:              120
+    height:             200
+    position:           right
+    hOffset:            20
+    vOffset:            50
+  mobile:
+    show:               true
+    scale:              0.5
+  react:
+    opacityDefault:     0.7
+    opacityOnHover:     0.2
