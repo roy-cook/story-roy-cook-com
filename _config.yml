@@ -90,7 +90,8 @@ search:
 
 # hexo-tag-cloud
 tag_cloud:
-    textFont: Trebuchet MS, Helvetica
-    textColour: \#333
-    textHeight: 10
-    outlineColour: \#E2E1D1
+    textFont: 'Trebuchet MS, Helvetica'
+    textColor: '#333'
+    textHeight: 25
+    outlineColor: '#E2E1D1'
+    maxSpeed: 0.5 # range from [0.01 ~ 1]
