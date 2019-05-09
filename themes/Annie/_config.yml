@@ -22,7 +22,7 @@ title: Welcome
 # https://sariay.github.io/Random-img/
 # May be cause CROS bug!
 background_image:
-    mode: normal #normal or random
+    mode: random #normal or random
     normal_url: /img/1.jpg
     random_max: 110 
     random_url: https://sariay.github.io/Random-img/
@@ -42,7 +42,7 @@ timejs:
 # animation: spinner | transition | cyclic
 preloader:
     enable: true
-    animation: spinner
+    animation: cyclic
 
 #########################################################################################################
 # 003-INDEX
@@ -77,12 +77,17 @@ gitalk:
     distractionFreeMode: true
     #去除 more、index.html、?query=123等格式尾部 
     hrefTrimend: '#.*$,\\?.*$,index.html$' 
-    
-valine: 
-    enable: false
-    appid: 'DU--'
-    appkey: 'DU--'
-    placeholder: no any!
+
+valine: # Valine Comment System https://github.com/xCss/Valine
+        enable: true # enter true to enable valine
+        appid: 7ec1wQwAA8MKNjVDnXDbBRtx-gzGzoHsz # enter the leancloud application appId here
+        appkey: IPesc54T2AsK2QX09b2NjVcA # enter the leancloud application appKey here
+        notify: false # enter true to enable <Mail notifier> https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE
+        verify: false # enter true to enable <Validation code>
+        placeholder: Just Do It # enter the comment box placeholder
+        avatar: identicon # (''/mm/identicon/monsterid/wavatar/retro/hide), more to see https://valine.js.org/avatar/
+        avatar_cdn: https://gravatar.loli.net/avatar/ # avatar CDN address, default gravatar.loli.net
+        pageSize: 10 # comments of one page
     
 livere: 
     enable: false
@@ -91,8 +96,6 @@ livere:
 # post_count
 leancloud_count:
     enable: true
-    # app_id：
-    # app_key
     appid: 6b3CnjAVtocgRFfjMz7r87qk-gzGzoHsz
     appkey: nnNFXwoMfg7fjtQ01FYH5xez
     like_post:
@@ -129,7 +132,7 @@ post_toc:
     
 # post_mathJax
 mathjax:
-  enable: false
+  enable: true
   
 # post_code
 # highlight_theme: normal | night | night blue | night bright | night eighties

@@ -1,12 +1,12 @@
 ---
 title: Hello World
-
 categories:
   - c
-  
 tags:
   - one
   - two
+cover: /img/cart_cover.jpg
+mathjax: true
 
 
 ---
