@@ -87,12 +87,12 @@ valine:
 livere: 
     enable: false
     livere_uid: 'sdd'
-    
+
 # post_count
 leancloud_count:
-    enable: false
-    appid: 'dX--'
-    appkey: 'dX--'
+    enable: true
+    app_id: 6b3CnjAVtocgRFfjMz7r87qk-gzGzoHsz
+    app_key: nnNFXwoMfg7fjtQ01FYH5xez
     like_post:
         enable: true
     visit_post:
