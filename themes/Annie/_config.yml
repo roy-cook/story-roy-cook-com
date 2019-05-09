@@ -80,8 +80,8 @@ gitalk:
 
 valine: # Valine Comment System https://github.com/xCss/Valine
         enable: true # enter true to enable valine
-        appid: 7ec1wQwAA8MKNjVDnXDbBRtx-gzGzoHsz # enter the leancloud application appId here
-        appkey: IPesc54T2AsK2QX09b2NjVcA # enter the leancloud application appKey here
+        appid: eqEEjLwq07KztNyDxd2a5lPH-gzGzoHsz # enter the leancloud application appId here
+        appkey: 7O8y4FMab8exdX7RCa4rwLL9 # enter the leancloud application appKey here
         notify: false # enter true to enable <Mail notifier> https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE
         verify: false # enter true to enable <Validation code>
         placeholder: Just Do It # enter the comment box placeholder
@@ -96,8 +96,8 @@ livere:
 # post_count
 leancloud_count:
     enable: true
-    appid: 6b3CnjAVtocgRFfjMz7r87qk-gzGzoHsz
-    appkey: nnNFXwoMfg7fjtQ01FYH5xez
+    appid: eqEEjLwq07KztNyDxd2a5lPH-gzGzoHsz
+    appkey: 7O8y4FMab8exdX7RCa4rwLL9
     like_post:
         enable: true
     visit_post:
