@@ -25,7 +25,7 @@ background_image:
     mode: random #normal or random
     normal_url: /img/1.jpg
     random_max: 110 
-    random_url: https://sariay.github.io/Random-img/
+    random_url: https://github.com/roy-cook/Random-img/
     
 # show motto
 motto:
@@ -191,7 +191,7 @@ social:
 
 # copyright  
 since: 2017
-cotent_author: Sariay
+cotent_author: RoyCook
 
 #########################################################################################################
 # 006-GALLERY PAGE
